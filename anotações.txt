@@ -1,3 +1,13 @@
 react-native init app1 --version="0.44.0"
 
 https://facebook.github.io/react-native/
+
+npm install -g eslint
+
+npm install --save-dev eslint-config-rallycoding
+
+cria o arquivo .eslintrc com o seguint código
+
+{
+	"extends": "rallycoding"
+}
